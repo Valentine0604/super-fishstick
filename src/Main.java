@@ -4,5 +4,7 @@ public class Main {
         System.out.println("Hello friend, welcome to CatHub!");
         System.out.println("Click here to register!");
         Registration registration = new Registration("Leon", "Pink Ball", "6", "Maine Coon", "Ewelina");
+        Login login = new Login("username", "password");
+        System.out.println(login);
     }
 }
